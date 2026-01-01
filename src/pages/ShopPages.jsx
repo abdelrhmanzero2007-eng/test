@@ -24,7 +24,7 @@ export default function ShopPages() {
       <div className="container grid grid-cols-3 gap-4">
         {product.map((el) => {
           return (
-            <div key={el.id} className="card bg-base-100 w-96 shadow-sm">
+            <div key={el.id} className="card bg-blue-900 w-96 shadow-sm">
               <figure>
                 <img className="w-50"  src={el.image} alt="Shoes" />
               </figure>
